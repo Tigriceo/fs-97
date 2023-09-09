@@ -1,3 +1,61 @@
-body{
-    font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* #title {
+  color: red;
+}
+
+.test + li {
+  padding: 10px;
+}
+
+.test ~ li {
+  padding: 10px;
+} */
+.section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.tag-image {
+  object-fit: cover;
+  object-position: center;
+}
+.image {
+  background-image: url(../img/hero_img.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog-text h1 {
+}
+.blog-text h2 {
+  font-size: 48px;
+}
+.blog-text h3 {
+  font-size: 38px;
+}
+.blog-text ul {
+}
+.blog-text p {
+}
+
+.t1 {
+  margin-bottom: 40px;
+}
+.t2 {
+  margin-top: 30px;
 }
